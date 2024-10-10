@@ -20,8 +20,8 @@ const Footer = () => {
           {/* Company info section */}
           <div className="space-y-4 font-semibold">
             <div className="flex items-center space-x-3">
-              <Image src={Logo} alt="" className="w-6" />
-              <p className="text-xl font-semibold">Interior</p>
+              <Image src={Logo} alt="" className="w-20" />
+              <p className="text-2xl font-semibold">Neon</p>
             </div>
             <p> Uttara,Dhaka,Bangladesh</p>
             <p>@ 2024 All rights reserved</p>
@@ -69,7 +69,7 @@ const Footer = () => {
             <ul className="text-base font-semibold space-y-4">
               <li className="flex items-center space-x-3">
                 <FaPhone />
-                <Link href="#">+8801771040076</Link>
+                <Link href="#">+880123456789</Link>
               </li>
               <li className="flex items-center space-x-3">
                 <LuMessageSquare />

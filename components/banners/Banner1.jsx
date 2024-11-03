@@ -1,8 +1,7 @@
 "use client";
-import React from "react";
+import Image from "next/image";
 import Banner from "@/assets/banner1.jpg";
 import { motion } from "framer-motion";
-import Image from "next/image";
 
 import { SlideUp } from "@/lib/animation/animate";
 const Banner1 = () => {
